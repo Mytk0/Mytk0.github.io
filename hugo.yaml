@@ -1,0 +1,60 @@
+baseURL: "https://mytk0.github.io/"
+title: "quiet hours"
+theme: "PaperMod"
+languageCode: "en-us"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: "quiet hours"
+  description: "Offensive security research and notes on Windows internals, Active Directory, and implant design."
+  author: "Kostas Mytas"
+  defaultTheme: "auto"
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowToc: true
+  TocOpen: false
+  ShowBreadCrumbs: false
+  ShowPostNavLinks: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  disableThemeToggle: false
+  schema:
+    disable: true
+  homeInfoParams:
+    Title: "quiet hours"
+    Content: >
+      Offensive security, Windows internals, Active Directory.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/Mytk0"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/kmytas"
+    - name: email
+      url: "mailto:konst.mytas@gmail.com"
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 30
